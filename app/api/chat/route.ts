@@ -1,8 +1,6 @@
 // app/api/chat/route.ts — Google Gemini 1.5 Flash (FREE, 1M tokens/day)
 import { systemPrompt } from '@/lib/chatbot-knowledge'
 
-export const runtime = 'edge'
-
 type Msg = { role: 'user' | 'assistant'; content: string }
 
 export async function POST(req: Request) {
