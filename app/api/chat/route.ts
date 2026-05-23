@@ -8,7 +8,7 @@ export const runtime = 'edge'
 // Đổi model tại đây:
 // - 'google/gemini-3-flash-preview' (mặc định, nhanh + rẻ)
 // - 'anthropic/claude-sonnet-4.6' (chất lượng cao hơn)
-const MODEL = 'google/gemini-3-flash-preview'
+const MODEL = 'meta-llama/llama-3.1-8b-instruct:free'
 
 type Msg = { role: 'user' | 'assistant'; content: string }
 
