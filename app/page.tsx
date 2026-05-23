@@ -87,7 +87,24 @@ function LeadForm({ id, dark = false }: { id: string; dark?: boolean }) {
           <IconCheck className="w-7 h-7 text-white" />
         </div>
         <p className={`font-semibold text-lg ${dark ? "text-white" : "text-[#134E4A]"}`}>{msg}</p>
-        <p className={`text-sm mt-1 ${dark ? "text-white/70" : "text-[#6B7280]"}`}>Kiểm tra email để nhận tài liệu hướng dẫn từ em nhé.</p>
+        <p className={`text-sm mt-1 mb-5 ${dark ? "text-white/70" : "text-[#6B7280]"}`}>
+          Kiểm tra email để nhận tài liệu hướng dẫn từ em nhé.
+        </p>
+        <a
+          href="https://zalo.me/g/unmqzx889"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 w-full py-3 px-4 bg-[#0068FF] hover:bg-[#0055CC] text-white font-bold text-base rounded-xl transition-colors duration-200 shadow-lg shadow-blue-200"
+        >
+          <svg viewBox="0 0 48 48" className="w-5 h-5 fill-white flex-shrink-0">
+            <path d="M24 4C12.95 4 4 12.95 4 24c0 5.35 2.1 10.2 5.5 13.85L7 44l6.35-2.45A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.3 0-6.4-.9-9.05-2.5l-.65-.4-3.75 1.45 1.5-3.65-.45-.7A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16z"/>
+            <path d="M33.5 28.3c-.5-.25-2.9-1.45-3.35-1.6-.45-.15-.77-.25-1.1.25-.32.5-1.25 1.6-1.53 1.92-.28.33-.55.37-1.05.12-.5-.25-2.1-.77-4-2.47-1.48-1.32-2.47-2.95-2.76-3.45-.28-.5-.03-.77.22-1.02.22-.22.5-.58.75-.87.25-.3.33-.5.5-.83.17-.33.08-.62-.04-.87-.12-.25-1.1-2.65-1.5-3.62-.4-.95-.8-.82-1.1-.83h-.93c-.32 0-.83.12-1.27.62-.43.5-1.65 1.62-1.65 3.95 0 2.33 1.7 4.58 1.93 4.9.25.32 3.33 5.1 8.07 7.15 1.13.48 2.01.77 2.7.98.93.3 1.77.25 2.44.15.74-.1 2.9-1.18 3.3-2.33.4-1.14.4-2.12.28-2.33-.12-.2-.44-.32-.94-.57z"/>
+          </svg>
+          Tham gia nhóm Zalo ngay
+        </a>
+        <p className={`text-xs mt-2 ${dark ? "text-white/50" : "text-[#9CA3AF]"}`}>
+          Nhóm hỗ trợ &amp; cộng đồng KDP Vietnam
+        </p>
       </div>
     );
   }
